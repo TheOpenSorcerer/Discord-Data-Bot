@@ -1,0 +1,21 @@
+sudo: required
+
+language: python
+python:
+  - "3.4"
+  - "3.5"
+  - "3.6"
+  - "3.7"
+
+services:
+  - docker
+
+install:
+  - pip install -r requirements.txt
+
+script: 
+  - docker build -t test_build .
+  - docker run test_build python3 /usr/src/ff_bot/setup.py test
+
+env:
+  - BOT_ID=916ccfd76a7fda25c74d09e1d5 LEAGUE_ID=164483
