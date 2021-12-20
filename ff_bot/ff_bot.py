@@ -1,3 +1,5 @@
+#Dicord Data bot for socre pushing on Python
+#Brantley Gusler
 import requests
 import json
 import os
@@ -49,7 +51,7 @@ class SlackBot(object):
         return "Slack Webhook Url(%s)" % self.webhook_url
 
     def send_message(self, text):
-        #Sends a message to the chatroom if applicable 
+        #Sends a message to the chatroom if applicable
         message = "```{0}```".format(text)
         template = {
                     "text":message
