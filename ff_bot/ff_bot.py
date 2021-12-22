@@ -1,5 +1,4 @@
 #Dicord Data bot for socre pushing on Python
-#Brantley Gusler
 import requests
 import json
 import os
