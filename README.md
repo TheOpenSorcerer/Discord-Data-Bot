@@ -1,4 +1,4 @@
-This package creates a docker container that runs a GroupMe, Discord, or Slack chat bot to send ESPN Fantasy Football information to a GroupMe, Discord or Slack chat room.
+This package creates a docker container that runs a GroupMe, Discord, or Slack chat bot to send ESPN sports data information to a GroupMe, Discord or Slack chat room.
 
 What does this do?
 Sends out the following messages on this schedule:
